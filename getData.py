@@ -1,7 +1,8 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType
-import os
 from dotenv import load_dotenv
+
+import os
 
 # for username and pass
 load_dotenv()
